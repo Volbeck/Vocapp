@@ -1,0 +1,7 @@
+1. SingUp обработка response с кодом 500
+2. настроить z-index
+3. Отправлять письмо пользователю на email при захоже с другого IP
+4. Настроить webpack в AutoriyationFronend([main.js])
+5. Создать фаил requirements.txt в дериктории проекта
+6. Настроить title и icon проект
+7. Настроить email в проекте PS. не забыть про EmailField в SingUp

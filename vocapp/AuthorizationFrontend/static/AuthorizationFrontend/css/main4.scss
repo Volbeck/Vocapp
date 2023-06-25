@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 20px;
+  background: #DDD;
+  font-size: 16px;
+  color: #222;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+.clean{
+  clear: both;
+}
+.modeLink{
+  text-decoration: none;
+  margin-right: 40px;
+  font-size: 16px;
+  color: #222;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.active{
+  border-bottom: 3px solid #16a085;
+  cursor: default;
+}
+h1{
+  margin: 0;
+  font-weight: 300;
+  font-size: 28px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+
+
+ul{
+  padding: 0px;
+  text-align: left;
+  overflow: hidden;
+}
+li{
+  list-style-type:disc;
+  margin-bottom: 10px;
+}
+.errorlist{
+  padding-left: 40px;
+  width: 230px;
+  float: right;
+  color: #ff6d6d;
+  .error{
+    div{text-transform: capitalize;}
+    ul{
+      margin-top: 5px;
+      li{
+        margin-left: 8px;
+        list-style-type: none;
+        margin-bottom: 5px;
+      }
+    }
+  }
+}
+
+.SingUpIsSubmittedPageWrapper {
+    min-height: 100%;
+    color: #155724;
+    background-color: #d4edda;
+    font-size: 16px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    text-align: center;
+    width: 100%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    a{
+        color: #007bff;
+        text-decoration: none;
+    }
+}

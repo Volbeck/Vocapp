@@ -1,0 +1,13 @@
+.popup {
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%);
+    background-color: rgb(57 201 101);
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    z-index: 999;
+    text-align: center;
+}

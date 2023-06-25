@@ -1,0 +1,96 @@
+/* body{
+	background: #f2f7f2;
+	padding: 0px;
+	margin: 0px;
+} */
+
+.header{
+	width: 100%;
+	padding-left: 5%;
+	border-bottom: 1px gray solid;
+	height: 50px;
+	background: #fdfdfd;
+	padding-bottom: 20px;
+    .add{
+        margin-right: 25px;
+        margin-top: 10px;
+        float: right;
+        button{
+            background: blue;
+            border: 1px solid gray;
+            border-radius: 50%;
+            height: 50px;
+            width: 50px;
+            padding-right: 4px;
+            display: flex;
+            padding-top: 2px;
+            justify-content: center;
+            align-items: center;
+            &:hover{
+                background: #1919d7;
+            }
+        }
+        svg{
+            color: white;
+            font-size: 50px;
+            vertical-align: middle;
+            line-height: 50px;
+        }
+    }
+}
+.left{
+    .element{
+        float: left;
+        margin-right: 50px;
+        font-family: Inter;
+        font-size: 28px;
+        font-style: italic;
+        font-weight: 400;
+        letter-spacing: 0em;
+        text-align: left;
+        font-variation-settings: "slnt" -2;
+        color: rgb(124, 106, 106);
+        line-height: 60px;
+        &:hover{
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    }
+    .activ{
+        a{color:blue!important};
+        &:hover{
+            text-decoration: none;
+            cursor: default;
+        }
+        
+    }
+}
+
+.right{
+	float: right;
+	margin-right: 10%;
+    .profile{
+        width: 50px;
+        border-radius: 25px;
+        margin-top: 10px;
+        float: right;
+    
+    }
+}
+.clean{
+	clear: both;
+}
+.link{
+    cursor: pointer;
+}
+a{
+    color: rgb(124, 106, 106);
+    text-decoration:none;
+}
+
+
+
+
+
+
+
