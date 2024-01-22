@@ -1,0 +1,17 @@
+version: '0.1'
+services:
+  vocapp:
+    image: vocapp
+    build: .
+    container_name: vocapp
+    hostname: vocapp
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./:/app/
+
+
+
+
+
+
